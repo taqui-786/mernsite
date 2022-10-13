@@ -11,9 +11,7 @@ app.use(express.json())
 app.use(cookieParser()) 
 const router = require('./router/route')
 app.use(router)
-app.get('/',(req,res) =>{
-    res.send("home page..")
-  })
+
 
 // HEROKU PUBLISH 
 if(process.env.NODE_ENV == 'production'){

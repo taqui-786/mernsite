@@ -14,9 +14,7 @@ const user = require("../model/userSchema");
 // });
 
 // REGISTER BACKEND 
-router.get('/',(req,res) =>{
-  res.send("home page..")
-})
+
 router.post("/register", async (req, res) => {
   const { name, phone, work, email, password, cpassword } = req.body;
 
