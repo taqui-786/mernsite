@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@300&family=Prompt:ital@0;1&family=Reem+Kufi+Fun:wght@500;700&family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@300&family=Mukta:wght@300&family=Prompt:ital@0;1&family=Reem+Kufi+Fun:wght@500;700&family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@300&family=Mukta:wght@300&family=Poppins:wght@300&family=Prompt:ital@0;1&family=Reem+Kufi+Fun:wght@500;700&family=Roboto&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    padding: 0 80px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.none{
+    display: none;
+}
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: #9b96fb;
+
+}
+.navbar nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 3rem;
+    color:#3f3d56;
+}
+.navbar .logo span{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #2C3A47;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar nav .menu ul{
+    float: right;
+}
+.navbar nav ul li{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 13px;
+
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #2C3A47;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar nav ul li a:hover{
+    font-weight: 900;
+color: #57606f;
+}
+.ham{
+    display: none;
+}
+.mobile_menu{
+    background-color: #d1d8e0;
+    position: relative;
+width: 100vw;
+height: 110px;
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+.mobile_menu ul li{
+    list-style: none;
+    display: block;
+}
+.mobile_menu ul li a{
+    text-decoration: none;
+    color: #2C3A47;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+/* Home page  */
+.home{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;;
+}
+.home_page{
+   display: flex;
+}
+.content{
+    display: flex;
+    height: 246px;
+    width: auto;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    align-items: center;
+}
+.img{
+    height: 370px;
+    width: 550px;
+    overflow: hidden;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+
+}
+.content h5{
+    font-weight: 800;
+    color: #3498db;
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.content h2{
+    color:#00b894;
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;   
+}
+.content h1{
+    color:#3f3d56;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+/* Contact Page  */
+.contact{
+    height: 82%;
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.c_img{
+    width: 45%;
+    height: 100%;
+
+}
+.c_img img{
+    height: 91%;
+    width: 100%;
+}
+.contact_page{
+height: 100%;
+width: 55%;
+}
+.contact_page form{
+    height: 90%;
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.contact_page form input{
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    width: 459px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.contact_page  form span{
+    font-size: 3.2rem;
+    color: #6c63ff
+
+}
+
+.contact_page form textarea{
+    resize: none;
+    width: 400px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    outline: none;
+    
+}
+
+.c-btn{
+    width: 170px;
+    height: 9%;
+    margin-right: 429px;
+    background-color: #6c63ff;
+    /* border: none; */
+    border-radius: 10px;
+    /* margin-bottom: 8px; */
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    float: right;
+}
+.c-btn:hover{
+    background-color: #2d3436;
+    color: #d1d8e0;
+}
+.contact_page h1{
+    color: #2C3A47;
+    font-size: 4rem;
+    text-decoration: underline;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* About Page styling  */
+.about{
+    height: 82%;
+    width: 80%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.about_page{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_content{
+    height: 70%;
+    text-align: center;
+    width: 100%;
+}
+.a_content p{
+    font-size: 3.6rem;
+  
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+#name{
+    font-size: 3.9rem;
+    color: #00b894;
+}
+#mern{
+    text-decoration: underline;
+    color: #3f3d56;
+    font-size: 3.9rem;
+}
+#number{
+    color: #3498db;
+    font-size: 3.9rem;
+}
+#email{
+    color: crimson;
+    font-size: 3.2rem;
+}
+.a_img{
+    height: 100%;
+    width: 55%;
+}
+.a_img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Register page styling  */
+
+.register{
+    height: 82%;
+    width: 80%;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.register_page{
+height: 85%;
+width: 100%;
+display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.register h1{
+    /* text-decoration: underline; */
+    height: 12%;
+    color: #3f3d56;
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.register_page form{
+    height: 100%;
+    width: 55%;
+    display: flex; 
+     justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.register_page form span{
+    font-size: 3.2rem;
+    color: #6c63ff
+
+}
+.register_page form input{
+    height: 30px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.r_img{
+    height: 100%;
+    width: 45%;
+}
+.r_img img{
+    height: 100%;
+    width: 100%;
+}
+.r-btn{
+    width: 170px;
+    height: 10%;
+    display: flex;
+    padding: 23px;
+    margin-right: 229px;
+    background-color: #6c63ff;
+    border-radius: 10px;
+    margin-left: 50%;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.r-btn:hover{
+    background-color: #2d3436;
+    color: #d1d8e0;
+}
+/* Login Page styling  */
+.login{
+    height: 50%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #ffffff;
+     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.login_page{
+    height: 85%;
+    width: 100%;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.login_page form{
+    height: 60%;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+.login_page form span{
+    font-size: 2.5rem;
+    color: #6c63ff;
+    margin-right: 10px;
+}
+.login_page form input{
+    height: 30px;
+    width: 85%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+.login_page .l_img{
+    height: 100%;
+    width: 45%;
+}
+.l_img img{
+    height: 100%;
+    width: 100%;
+}
+.l-btn{
+    width: 125px;
+    height: 10%;
+    /* margin-top: 31px; */
+    display: flex;
+    padding: 20px;
+    background-color: #6c63ff;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    height: 5%;
+    color: #3f3d56;
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    z-index: 111;
+}
+.l-btn:hover{
+    background-color: #2d3436;
+    color: #d1d8e0;
+}
+
+/* Responsive Media Querry  */
+@media (max-width:720px ) {
+    .ham{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        font-size: 3rem;
+    }
+    .menu{
+        display: none;
+       
+    }
+}
+@media (max-width:700px){
+    .home_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        font-size: 1.3rem;
+    }
+    .main{
+        padding: 0 5px;
+    }
+    .img {
+        height: 285px;
+        width: auto;
+        overflow: hidden;
+    }
+    .contact {
+        height: 82%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+        flex-direction: column-reverse;
+    }
+    .contact_page {
+        height: 100%;
+        width: 100%;
+    }
+    .c_img {
+        width: 100%;
+        height: 65%;
+    }
+    .contact_page form input{
+        width: 230px;
+    }
+    .contact_page form{
+        width: 90%;
+    }
+    .c-btn {
+        width: 137px;
+        margin-top: 10px;
+        height: 9%;
+        margin-right: 0px;
+        background-color: #6c63ff;
+        /* border: none; */
+        border-radius: 10px;
+        /* margin-bottom: 8px; */
+        letter-spacing: 3px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+        font-family: 'Reem Kufi Fun', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Rubik', sans-serif;
+    }
+    .contact_page form textarea{
+        margin-top: 10px;
+    }
+    .login {
+        height: 65%;
+        width: 75%
+    }
+    .login_page {
+        height: 85%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.login_page .l_img {
+    height: 100%;
+    width: 100%;
+}
+.login_page form {
+    height: 60%;
+    width: 100%;
+}
+.login h1{
+    font-size: 3rem;
+}
+.about {
+    height: 82%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+    flex-direction: column-reverse;
+}
+.a_img {
+    height: 45%;
+    width: 100%;
+}
+.about_page {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_content {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.a_content p {
+    font-size: 2.4rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+#name{
+    font-size: 2.6rem;
+    color: #00b894;
+}
+#mern{
+    text-decoration: underline;
+    color: #3f3d56;
+    font-size: 3.9rem;
+}
+#number{
+    color: #3498db;
+    font-size: 2.7rem;
+}
+#email{
+    color: crimson;
+    font-size:2.1rem;
+}
+.register_page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.register_page form {
+    height: 55%;
+    width: 100%;
+}
+.r_img{
+    height: 45%;
+    width: 100%;
+}
+.register_page form input {
+    height: 30px;
+    width: 80%;
+}
+.r-btn {
+    width: 170px;
+    height: 10%;
+    display: flex;
+    padding: 19px;
+    margin-right: 170px;
+    background-color: #6c63ff;
+    border-radius: 10px;
+    /* margin-left: 50%; */
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.register h1{
+    
+    font-size: 3rem;
+}
+}
